@@ -1,0 +1,18 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+w e",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "explorerViewletFocus || filesExplorerFocus || terminalFocus"
+    },
+    {
+        "key": "ctrl+w t",
+        "command": "workbench.action.terminal.focus",
+        "when": "explorerViewletFocus || filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+w s",
+        "command": "workbench.action.focusSideBar",
+        "when": "terminalFocus"
+    }
+]

@@ -1,0 +1,36 @@
+{
+    "workbench.colorTheme": "Zenburn Dark Matter - Cold - Viserion",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-w>", "t"],
+            "commands": [
+                "workbench.action.terminal.focus",
+            ]
+        },
+        {
+            "before": ["t", "n"],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": ["t", "p"],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": ["<C-w>", "s"],
+            "commands": [
+                "workbench.action.focusSideBar"
+            ]
+        }
+    ],
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.focusSideBar",
+        "workbench.action.focusActiveEditorGroup"
+    ]
+}
